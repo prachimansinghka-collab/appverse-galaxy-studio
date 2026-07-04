@@ -30,10 +30,12 @@ export function Navbar() {
       }`}
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 sm:px-6">
-        <Link to="/" className="group flex items-center gap-2">
-          <div className="relative grid h-9 w-9 place-items-center rounded-xl gradient-primary animate-pulse-glow">
-            <Sparkles className="h-5 w-5 text-white" />
-          </div>
+        <Link to="/" className="group flex items-center gap-2.5">
+          <img
+            src={logoIcon.url}
+            alt="AppVerse Studios"
+            className="h-10 w-10 object-contain drop-shadow-[0_0_12px_oklch(0.68_0.22_275/0.6)] transition-transform group-hover:scale-105"
+          />
           <span className="text-lg font-bold tracking-tight">
             AppVerse<span className="gradient-text"> Studios</span>
           </span>
