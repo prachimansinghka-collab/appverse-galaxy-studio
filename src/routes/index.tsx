@@ -60,8 +60,14 @@ function Hero() {
       <AnimatedBackground />
       <div className="mx-auto max-w-7xl px-4 pt-8 pb-24 sm:px-6 sm:pt-16 sm:pb-32">
         <div className="mx-auto max-w-4xl text-center">
+          <img
+            src={logoFull.url}
+            alt="AppVerse Studios"
+            className="mx-auto h-40 w-auto object-contain animate-float drop-shadow-[0_0_40px_oklch(0.68_0.22_275/0.5)] sm:h-56"
+          />
+
           <div
-            className="inline-flex items-center gap-2 rounded-full glass px-4 py-1.5 text-xs font-medium text-muted-foreground animate-fade-up"
+            className="mt-8 inline-flex items-center gap-2 rounded-full glass px-4 py-1.5 text-xs font-medium text-muted-foreground animate-fade-up"
           >
             <Sparkles className="h-3.5 w-3.5 text-primary" />
             Turning Ideas into Powerful Apps
