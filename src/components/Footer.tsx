@@ -1,6 +1,7 @@
 import { Link } from "@tanstack/react-router";
-import { Facebook, Twitter, Instagram, Linkedin, Github, Sparkles, Mail } from "lucide-react";
+import { Facebook, Twitter, Instagram, Linkedin, Github, Mail } from "lucide-react";
 import { useState } from "react";
+import logoIcon from "../assets/appverse-icon.png.asset.json";
 
 export function Footer() {
   const [email, setEmail] = useState("");
@@ -12,10 +13,12 @@ export function Footer() {
       <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6">
         <div className="grid gap-12 lg:grid-cols-4">
           <div className="lg:col-span-2">
-            <Link to="/" className="flex items-center gap-2">
-              <div className="grid h-9 w-9 place-items-center rounded-xl gradient-primary">
-                <Sparkles className="h-5 w-5 text-white" />
-              </div>
+            <Link to="/" className="flex items-center gap-2.5">
+              <img
+                src={logoIcon.url}
+                alt="AppVerse Studios"
+                className="h-10 w-10 object-contain drop-shadow-[0_0_12px_oklch(0.68_0.22_275/0.6)]"
+              />
               <span className="text-lg font-bold">
                 AppVerse<span className="gradient-text"> Studios</span>
               </span>
