@@ -88,6 +88,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "AppVerse Studios — Turning Ideas into Powerful Apps" },
+      { name: "description", content: "AppVerse Studios builds premium Android, iOS, AI, and Web applications. Design-led engineering for startups and enterprises." },
+      { property: "og:description", content: "AppVerse Studios builds premium Android, iOS, AI, and Web applications. Design-led engineering for startups and enterprises." },
+      { name: "twitter:description", content: "AppVerse Studios builds premium Android, iOS, AI, and Web applications. Design-led engineering for startups and enterprises." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/19462ce5-6dd5-43e0-8cbf-87351eb47285/id-preview-3f071933--f9849c9a-78c5-4b93-813d-ac39311e35fb.lovable.app-1783163212629.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/19462ce5-6dd5-43e0-8cbf-87351eb47285/id-preview-3f071933--f9849c9a-78c5-4b93-813d-ac39311e35fb.lovable.app-1783163212629.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
