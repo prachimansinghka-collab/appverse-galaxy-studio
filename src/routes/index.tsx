@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { AnimatedBackground } from "../components/AnimatedBackground";
 import { GlassCard, SectionHeading } from "../components/ui-kit";
 import { services, portfolio, processSteps, testimonials, faqs } from "../lib/content";
+import logoFull from "../assets/appverse-logo-full.png.asset.json";
 
 export const Route = createFileRoute("/")({
   component: Home,
